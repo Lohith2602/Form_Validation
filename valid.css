@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+body {
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+input.warning {
+  border-color: #e74c3c;
+  background: #fdeaea;
+}
+
+input.success {
+  border-color: #2ecc71;
+  background: #eafaf1;
+}
+
+.error {
+  font-size: 0.8em;
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.toggle-btn {
+  background: #f39c12;
+  color: #fff;
+  width: 100%;
+}
+
+.toggle-btn:hover {
+  background: #e67e22;
+}
+
+.submit-btn {
+  background: #3498db;
+  color: #fff;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+}
+
+/* Emoji */
+#emoji {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
